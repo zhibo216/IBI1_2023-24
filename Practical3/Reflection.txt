@@ -2,3 +2,4 @@ The process of practical is not that easy.
 sometimes I tap the same code as my peer but fail while my peer gain success.
 I do face some challenges, for example, when I click 'support themes', it turns to the profile of a user called'theme' instead of providing me themes I could use.
 However, the problems are solved and I do gain some coding experience.
+zzy is unstoppable
