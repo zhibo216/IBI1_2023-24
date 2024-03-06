@@ -7,7 +7,8 @@ if d>e:
 elif d<e:
     print('d<e,training by combining strenth exercise and running is the better method')
 else:
-    print('d=e')
+    print('d=e') 
+    #d<e,training by combining strenth exercise and running is the better method
 
 X=True;Y=False;W=X or Y
 print('X','Y','W')
