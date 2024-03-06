@@ -13,14 +13,7 @@ else:
 X=True;Y=False;W=X or Y
 print('X','Y','W')
 print(X,Y,W)
-X=False;W=X or Y
-print(X,Y,W)
-Y=True;W=X or Y
-print(X,Y,W)
-X=True;Y=True;W=X or Y
-print(X,Y,W)
+print('W is '+str(W)) 
 #X Y W
 #True False True
-#False False False
-#False True True
-#True True True
+#W is True
