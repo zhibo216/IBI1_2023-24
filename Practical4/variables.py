@@ -10,10 +10,5 @@ else:
     print('d=e') 
     #d<e,training by combining strenth exercise and running is the better method
 
-X=True;Y=False;W=X or Y
-print('X','Y','W')
-print(X,Y,W)
-print('W is '+str(W)) 
-#X Y W
-#True False True
-#W is True
+X=True;Y=False;W=not (X and Y) and (X or Y)
+print(W) #True
