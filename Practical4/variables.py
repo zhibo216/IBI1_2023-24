@@ -1,6 +1,6 @@
-a=40
-b=36
-c=30
+a=40 # the origin time
+b=36 # the time after training by running
+c=30 #the time after a combining training
 d=a-b;e=a-c
 if d>e:
     print('d>e,training only by running is the better method')

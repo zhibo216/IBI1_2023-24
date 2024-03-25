@@ -12,7 +12,7 @@ from math import ceil
 progress=0
 total_random_number=0
 while progress<100:
-	progress+=1
+	progress=progress+1
 	n = randint(1,10)
 	total_random_number = total_random_number+n
 
