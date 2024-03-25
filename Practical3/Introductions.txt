@@ -1,6 +1,6 @@
 Hello. 
 My name is Chen Guo.
-I like drinking juice and eating beef
-I am enjoying studying IBI1 
+I like drinking juice and eating beef.
+I am enjoying studying IBI1 .
 I am happy that I can push my repo from Visual Studio Code to GitHub!
-I am afraid of talking in public
+I am afraid of talking in public.
