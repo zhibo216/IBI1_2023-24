@@ -10,5 +10,7 @@ else:
     print('d=e') 
     #d<e,training by combining strenth exercise and running is the better method
 
-X=True;Y=False;W=not (X and Y) and (X or Y)
+X=True
+Y=False
+W=not (X and Y) and (X or Y)
 print(W) #True
