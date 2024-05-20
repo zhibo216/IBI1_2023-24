@@ -14,3 +14,10 @@ X=True
 Y=False
 W=not (X and Y) and (X or Y)
 print(W) #True
+
+# W is true if only one of X and Y is True
+#    X       Y         W
+#   True    True      False
+#   True    False     True
+#   False   True      True
+#   False   False     False
