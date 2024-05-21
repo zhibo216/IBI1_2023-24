@@ -1,0 +1,5 @@
+ Are there places in the World where the DALYs in 2019 is less than 18,000? If so, which countries are those?
+ the line number between main python file and new question is 2
+ first we collect the data in year 2019, then we checked whether their DALYS were below 18000 in 2019 and prints them out, as a result, we found that there
+ were six countries which have DALYs less than 18000. 
+ This result is what I expected, for some countries may have higher medical level,therefore, with the development of mediacl treatment,they would have lower DALYs than other countries and their DALYs may be less than 18000 before other countries.

@@ -1,0 +1,9 @@
+The similarity between humans and mouses is 92.53968253968254%
+The score between humans and mouses is 3137.0
+The similarity between humans and rats is 91.74603174603175%
+The score between humans and rats is 3107.0
+The similarity between humans and rats is 96.82539682539682%
+The score between humans and rats is 3261.0
+
+Mouses and rats are most closely related species
+Mouse is a better model organism for human based on the data analysis

@@ -1,0 +1,2 @@
+The practical is a little bit hard and I spent about 2 hours to finish it, it is more interesting to code Spatial_SIR than other two.
+The most important thing I learn was how the SIR model works and how to use choice function in numpy.
