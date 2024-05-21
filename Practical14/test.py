@@ -34,7 +34,7 @@ plt.clf()
 
 st_time2 = datetime.datetime.now()
 ontology = []
-count= {}
+count2= {}
 class myHandler(xml.sax.ContentHandler):
     def __init__(self):
         self.currentElement = ''
@@ -59,21 +59,24 @@ parser.setContentHandler(handler)
 parser.parse(path)
     
 for name in ontology:
-    if name not in count:
-        count[name] = 1
+    if name not in count2:
+        count2[name] = 1
     else:
-        count[name] += 1
+        count2[name] += 1
     
 end_time2 = datetime.datetime.now()
 time2 = end_time2 - st_time2
 print('time taken by SAX methods', time2)
+print('The number of terms within molecular function:'+str(count2['molecular_function']))
+print('The number of terms within biological process:'+str(count2['biological_process']))
+print('The number of terms within cellular components:'+str(count['cellular_component']))
 color=['blue','green','red']
-plt.bar(['biological_process','molecular_function','celluar_component'], [count['biological_process'], count['molecular_function'], count['cellular_component']],color=color)
+plt.bar(['molecular_function','biological_process','celluar_component'], [count2['molecular_function'], count2['biological_process'], count2['cellular_component']],color=color)
 plt.xlabel('ontology')
 plt.ylabel('number')
 plt.show()
 plt.clf()
 
-#DOM takes 10.5s
-#SAX takes  1.8s
-#SAX is faster!
+#DOM takes 10.6s
+#SAX takes  1.6s
+#SAX is the quickest!
