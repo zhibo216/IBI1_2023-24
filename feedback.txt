@@ -1,0 +1,2 @@
+In practical4, I did not add the truth table and this time I added the truth table
+In peactical4, I have the wrong expression, because I should leave before the day density over 0.9, the right expression is that I should leave at day 4 instead of 5. This time I change it to right expression.
