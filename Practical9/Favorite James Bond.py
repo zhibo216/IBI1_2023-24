@@ -9,7 +9,10 @@ def FJB(a): # a function about Favourite James Bond
     elif 2006<=b<=2021:
         c='Daniel Craig'
     else:
-        c='None'
+        c='None'  #no James Bond
     return c
-a=int(input('your birth year:')) #represent the birth year
-print('the individual actor is:'+FJB(a))                                                        
+a=int(input('your birth year:')) #represent the birth year   #any birth year for tests
+print('Your favourite James Bond is:'+FJB(a))
+
+#example:
+print('If you born in 1966, your favourite James Bond is:'+FJB(1966)) #the output should be Roger Moore
